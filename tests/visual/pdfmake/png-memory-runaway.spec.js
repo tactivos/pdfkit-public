@@ -11,7 +11,7 @@ import PDFDocument from '../../../lib/document';
 // memory we don't want to overwhelm the system just in case.
 
 const NUMBER_OF_4K_IMAGES = 14;
-const THRESHOLD_MEGABYTES = 300;
+const THRESHOLD_MEGABYTES = 220;
 const MAX_PNG_DECODE_MEGABYTES = 200;
 
 const TEST_TIMEOUT = 60000;
