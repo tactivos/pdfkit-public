@@ -1,7 +1,7 @@
 name: Publish to NPM
 on:
   # For more details: https://git.io/JBcCj
-  workflow_run:
+  pull_request:
     workflows: ["Build"]
     branches: [ master ]
     types:
