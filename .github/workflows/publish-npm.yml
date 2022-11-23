@@ -9,7 +9,7 @@ on:
 
 jobs:
   publish:
-    if: ${{ github.event.workflow_run.conclusion == 'success' }}
+    if: ${{ github.event.pull_request.conclusion == 'success' }}
     runs-on: [self-hosted, linux, small]
     steps:
       - uses: actions/checkout@v2
